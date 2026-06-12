@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Our Services | URJA CBG Consultants</title>
+<meta content="Expert engineering and consultancy for Compressed Biogas (CBG) plants. From EPC contracting to O&amp;M services." name="description">
+<!-- External Fonts & Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind Configuration -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-container": "#268451",
+                    "surface-container-high": "#e8e8ea",
+                    "secondary-fixed": "#d7e2ff",
+                    "inverse-surface": "#2f3133",
+                    "on-tertiary-fixed-variant": "#2d5000",
+                    "tertiary-container": "#4c8200",
+                    "primary": "#006a3b",
+                    "surface": "#f9f9fc",
+                    "error-container": "#ffdad6",
+                    "primary-fixed-dim": "#7ed99e",
+                    "secondary-container": "#79a9fd",
+                    "on-secondary": "#ffffff",
+                    "outline": "#6f7a70",
+                    "secondary": "#255dad",
+                    "inverse-on-surface": "#f0f0f3",
+                    "on-primary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "outline-variant": "#becabe",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#003c7e",
+                    "on-error": "#ffffff",
+                    "secondary-fixed-dim": "#abc7ff",
+                    "surface-bright": "#f9f9fc",
+                    "surface-container-highest": "#e2e2e5",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed": "#acf75a",
+                    "on-primary-fixed-variant": "#00522d",
+                    "on-primary-container": "#f6fff4",
+                    "inverse-primary": "#7ed99e",
+                    "on-tertiary-fixed": "#0f2000",
+                    "surface-variant": "#e2e2e5",
+                    "surface-dim": "#dadadc",
+                    "on-primary-fixed": "#00210f",
+                    "on-secondary-fixed": "#001b3f",
+                    "surface-tint": "#006d3d",
+                    "tertiary-fixed-dim": "#91da40",
+                    "on-secondary-fixed-variant": "#00458f",
+                    "on-tertiary-container": "#f9ffeb",
+                    "surface-container": "#eeeef0",
+                    "primary-fixed": "#9af6b8",
+                    "surface-container-low": "#f3f3f6",
+                    "background": "#f9f9fc",
+                    "on-background": "#1a1c1e",
+                    "on-surface": "#1a1c1e",
+                    "tertiary": "#3b6700",
+                    "on-tertiary": "#ffffff",
+                    "on-surface-variant": "#3f4941"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "stack-sm": "8px",
+                    "stack-md": "16px",
+                    "container-max": "1280px",
+                    "stack-lg": "32px",
+                    "gutter": "24px",
+                    "margin-mobile": "16px",
+                    "margin-desktop": "48px",
+                    "section-padding": "80px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Hanken Grotesk"],
+                    "headline-lg-mobile": ["Hanken Grotesk"],
+                    "headline-lg": ["Hanken Grotesk"],
+                    "label-sm": ["Hanken Grotesk"],
+                    "body-lg": ["Inter"],
+                    "display-lg": ["Hanken Grotesk"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-md": ["28px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "label-sm": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .bento-item {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .bento-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px -15px rgba(0, 106, 59, 0.15);
+        }
+        .accent-bar {
+            height: 4px;
+            background: linear-gradient(90deg, #006a3b 0%, #255dad 100%);
+            width: 40px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation Bar -->
+<header class="bg-surface/90 backdrop-blur-md sticky top-0 z-50 border-b border-outline-variant/30">
+<nav class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="h-12 w-auto shrink-0">
+  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYy1DWIp0QZCzpYBcwTT-cKLYCSrSiI4cEeLLdjPiyUGA8yh_yQQZeyMCQSUw44ZNJj7vqhP7aRL-QLy7pVheT83JKyWre4Yt4RoVaYfgihsGRhnD1GqC_7B4IZkg1QnGN4VZj-C3FGBZb41155z_cNXrSLM36bCkWE4JSXPiXQPw3xlqMOrGZ8T5kOvdQuFHKXm6fGx0Ee3FYxE4J3BaPrKLn_Rs84mQCFezHgPuPMV27ns50rUCVI8CmS28fQ8kX0rS_3O7h3Acz" alt="URJA CBG Consultants Logo" class="h-full w-auto object-contain">
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="index.html">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="about.html">About Us</a>
+<a class="text-primary border-b-2 border-primary pb-1 text-label-sm font-label-sm" href="services.html">Services</a>
+
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="free-consultation.html">Contact Us</a>
+<a href="free-consultation.html" class="bg-primary text-on-primary px-6 py-2 rounded-lg text-label-sm font-label-sm hover:bg-primary-container transition-transform active:scale-95 inline-block">Get Free Consultation</a>
+</div>
+<button class="md:hidden p-2 text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative h-[60vh] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A massive, modern industrial compressed biogas plant with sleek silver anaerobic digesters and complex stainless steel piping under a clear blue sky. The scene is shot with a professional architectural perspective, emphasizing the scale and engineering precision of the renewable energy facility with high-contrast, clean corporate lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNkweZO-aRULP4Jg8YRDukdSI6TA_66nqYZJadsbXn_ACz9EsR1dMwPSqRJieBJ4AskIqagrk2LH_ngrih6eK6k4EB5h9HGlP13eubGaNRpG96uLfRNMdhiw5bESXo_dBFX4S4yqxR0GGMX096YrB2OjKBeO9YPoVnZa4OnkLk8KMRemy8g1QJDBcQlxvwFBj-4IHsJ4GlOuu5cAnFhMO2W6buY85nEDpFoab8Padx5kawvQeU82RTPdbHH6duCaFPjHf-sfZCWUN8">
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/80 to-transparent"></div>
+</div>
+<div class="relative z-10 px-margin-desktop max-w-container-max mx-auto w-full">
+<div class="max-w-2xl">
+<span class="text-primary-fixed-dim text-label-sm font-label-sm tracking-widest uppercase mb-4 block">Sustainable Solutions. Clean Future.</span>
+<h1 class="text-display-lg font-display-lg text-surface-bright mb-6">Expertise from Concept to Commissioning</h1>
+<p class="text-body-lg font-body-lg text-surface-container-high max-w-lg mb-8">
+                        We are an engineering-driven organization providing end-to-end services for Compressed Biogas (CBG) plants with a focus on stable, long-term operation.
+                    </p>
+<a class="inline-flex items-center gap-2 bg-primary text-on-primary px-8 py-3 rounded-xl font-label-sm text-label-sm hover:shadow-lg transition-all" href="#services-grid">
+                        Explore Our Services
+                        <span class="material-symbols-outlined">arrow_downward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Who We Are Intro -->
+<section class="py-section-padding px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div>
+<div class="accent-bar"></div>
+<h2 class="text-headline-lg font-headline-lg mb-6">WHO WE ARE</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant leading-relaxed">
+                        Urja CBG Consultants is an engineering-driven organization providing EPC contracting, technical troubleshooting, and Operations &amp; Maintenance (O&amp;M) services for Compressed Biogas (CBG) plants with PSA and water scrubbing based biogas upgradation system.
+                    </p>
+<div class="mt-8 flex items-center gap-4 p-6 bg-primary-container/10 border-l-4 border-primary rounded-r-xl">
+<span class="material-symbols-outlined text-primary text-4xl">verified</span>
+<p class="font-bold text-primary">Expertise in Water scrubbing based biogas upgradation system.</p>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square bg-surface-container-highest rounded-full overflow-hidden border-8 border-surface-bright shadow-xl">
+<img class="w-full h-full object-cover" data-alt="Close-up shot of professional engineers in white hardhats reviewing complex technical blueprints on a tablet at a modern industrial site. The background shows blurred industrial machinery with a cool blue and green color grade, conveying a sense of high-tech engineering precision and sustainability." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsxb829SRWOUkiXrS85Tob90Qq-R9bmsja5vy3S_VHk8_IJYFAQK7TtI0D6fZKmRdEIf8FLcClDNGF0M6-UfdBIHXKe8jfO4MTI4qjdX7LU41DPVaAUAh3ujdMqBTsu9numtm6EWoJxIw8C1N91LkmrNbIdS36Eq7aNdwzknTRkdsYI3X9CCnVV1QDyzTnppz7wFBlO3gLt1VfJ5EAJG4rnFy0CHPTnILmRlclAaqMhZKnM6kc_QdFzsLscyW68thE_G_djS-v90wn">
+</div>
+</div>
+</div>
+</section>
+<!-- Services Bento Grid -->
+<section class="py-section-padding bg-surface-container-low" id="services-grid">
+<div class="px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-headline-lg font-headline-lg mb-4">OUR SERVICES</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Providing comprehensive engineering support throughout the project lifecycle to ensure stable and performance-focused execution.</p>
+</div>
+<div class="bento-grid">
+<!-- 1. EPC Contracting -->
+<div class="bento-item col-span-12 md:col-span-7 bg-surface-bright p-stack-lg border border-outline-variant rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">engineering</span>
+</div>
+<h3 class="text-headline-md font-headline-md">CBG Plant EPC Contracting</h3>
+</div>
+<p class="text-on-surface-variant mb-6">End-to-end execution for CBG plant setup focusing on engineering, installation, and startup support.</p>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<li class="flex items-start gap-2 text-body-md"><span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span> End-to-end EPC execution</li>
+<li class="flex items-start gap-2 text-body-md"><span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span> Third party contract work</li>
+<li class="flex items-start gap-2 text-body-md"><span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span> Engineering &amp; Commissioning</li>
+<li class="flex items-start gap-2 text-body-md"><span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span> Coordination with OEMs</li>
+</ul>
+<div class="mt-8 p-4 bg-surface-container border border-outline-variant/50 rounded-lg">
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-2">Process Specialist</p>
+<p class="text-body-md font-semibold italic text-on-surface">Review and finalization of process design, PFDs, P&amp;IDs, layouts, and equipment sizing.</p>
+</div>
+</div>
+</div>
+<!-- 2. Troubleshooting -->
+<div class="bento-item col-span-12 md:col-span-5 bg-surface-bright p-stack-lg border border-outline-variant rounded-xl border-t-4 border-t-error">
+<div class="w-12 h-12 bg-error/10 rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-error">build_circle</span>
+</div>
+<h3 class="text-headline-md font-headline-md mb-4">Troubleshooting &amp; Solutions</h3>
+<p class="text-on-surface-variant mb-6">Expert resolution for critical operational challenges in the biogas sector.</p>
+<ul class="space-y-4">
+<li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-secondary">analytics</span>
+<span class="text-body-md">Process &amp; mechanical troubleshooting</span>
+</li>
+<li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-secondary">biotech</span>
+<span class="text-body-md">Digester instability &amp; foaming resolution</span>
+</li>
+<li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-secondary">gas_meter</span>
+<span class="text-body-md">Gas quality &amp; low yield issues</span>
+</li>
+<li class="flex items-center gap-3 p-3 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-secondary">history_edu</span>
+<span class="text-body-md">Root cause analysis (RCA)</span>
+</li>
+</ul>
+</div>
+<!-- 3. O&M Services -->
+<div class="bento-item col-span-12 md:col-span-6 bg-secondary text-on-secondary p-stack-lg rounded-xl overflow-hidden relative">
+<div class="relative z-10">
+<div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white">settings_suggest</span>
+</div>
+<h3 class="text-headline-md font-headline-md mb-4">Operations &amp; Maintenance (O&amp;M)</h3>
+<p class="text-secondary-fixed/80 mb-6">Ensuring maximum uptime and performance through professional plant management.</p>
+<ul class="space-y-3">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary-fixed">done_all</span> Complete O&amp;M for generation &amp; purification</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary-fixed">done_all</span> Plant operation &amp; manpower supervision</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary-fixed">done_all</span> Preventive and breakdown maintenance</li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary-fixed">done_all</span> Performance monitoring and optimization</li>
+</ul>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-10">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">manufacturing</span>
+</div>
+</div>
+<!-- 4. Commissioning -->
+<div class="bento-item col-span-12 md:col-span-6 bg-surface-bright p-stack-lg border border-outline-variant rounded-xl">
+<div class="w-12 h-12 bg-tertiary/10 rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-tertiary">rocket_launch</span>
+</div>
+<h3 class="text-headline-md font-headline-md mb-4">Commissioning &amp; Stabilization</h3>
+<p class="text-on-surface-variant mb-6">Supporting the critical transition from construction to stable commercial operation.</p>
+<div class="space-y-4">
+<div class="group border border-outline-variant/30 p-4 rounded-lg hover:bg-primary-container/5 transition-colors">
+<p class="text-label-sm font-label-sm text-primary mb-1">PHASE 1</p>
+<p class="font-semibold">Pre-commissioning and commissioning assistance</p>
+</div>
+<div class="group border border-outline-variant/30 p-4 rounded-lg hover:bg-primary-container/5 transition-colors">
+<p class="text-label-sm font-label-sm text-primary mb-1">PHASE 2</p>
+<p class="font-semibold">Trial run management &amp; process stabilization</p>
+</div>
+<div class="group border border-outline-variant/30 p-4 rounded-lg hover:bg-primary-container/5 transition-colors">
+<p class="text-label-sm font-label-sm text-primary mb-1">PHASE 3</p>
+<p class="font-semibold">Performance validation and improvement</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Navurja Section -->
+<section class="py-section-padding px-margin-desktop max-w-container-max mx-auto overflow-hidden">
+<div class="bg-primary rounded-[2rem] p-8 md:p-16 text-on-primary flex flex-col md:flex-row gap-12 items-center relative">
+<div class="absolute top-0 right-0 p-8 opacity-20">
+<span class="material-symbols-outlined text-9xl">eco</span>
+</div>
+<div class="md:w-1/2 relative z-10">
+<h2 class="text-headline-lg font-headline-lg mb-6">WHY URJA CBG CONSULTANTS?</h2>
+<p class="text-on-primary/80 mb-8 text-body-lg">We differentiate ourselves through technical depth and hands-on field experience.</p>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<div>
+<h4 class="font-bold text-headline-md">Expert Technical Team</h4>
+<p class="text-on-primary/70">Extensive experience specifically in the CBG sector across India.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<div>
+<h4 class="font-bold text-headline-md">Biological Process Depth</h4>
+<p class="text-on-primary/70">Strong understanding of process and plant equipment interaction.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 w-full">
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 text-center">
+<p class="text-display-lg font-display-lg mb-2">100%</p>
+<p class="text-label-sm uppercase tracking-tighter">Field Driven</p>
+</div>
+
+<div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 text-center col-span-2">
+<p class="text-headline-md font-headline-md mb-2 italic">Hands-on Expertise</p>
+<p class="text-label-sm uppercase tracking-tighter">Practical Engineering</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="pb-section-padding px-margin-desktop max-w-container-max mx-auto text-center">
+<div class="bg-surface-container-highest p-12 rounded-3xl">
+<h3 class="text-headline-lg font-headline-lg mb-6">Ready to Power Your Future?</h3>
+<p class="text-on-surface-variant mb-10 max-w-xl mx-auto">Get in touch with our expert team for a comprehensive technical evaluation of your CBG project.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="free-consultation.html" class="bg-primary text-on-primary px-10 py-4 rounded-xl font-bold shadow-lg hover:bg-primary-container transition-all inline-block">Book a Consultation</a>
+<button class="bg-surface text-secondary px-10 py-4 rounded-xl font-bold border border-secondary/20 hover:bg-secondary/5 transition-all">Download Brochure</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container dark:bg-inverse-surface border-t border-outline-variant dark:border-outline full-width">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-gutter px-margin-desktop py-section-padding max-w-container-max mx-auto">
+    <!-- Branding & Summary -->
+    <div class="space-y-stack-md col-span-1 md:col-span-1">
+        <a href="index.html" class="flex items-center">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYy1DWIp0QZCzpYBcwTT-cKLYCSrSiI4cEeLLdjPiyUGA8yh_yQQZeyMCQSUw44ZNJj7vqhP7aRL-QLy7pVheT83JKyWre4Yt4RoVaYfgihsGRhnD1GqC_7B4IZkg1QnGN4VZj-C3FGBZb41155z_cNXrSLM36bCkWE4JSXPiXQPw3xlqMOrGZ8T5kOvdQuFHKXm6fGx0Ee3FYxE4J3BaPrKLn_Rs84mQCFezHgPuPMV27ns50rUCVI8CmS28fQ8kX0rS_3O7h3Acz" alt="Urja CBG Consultants Logo" class="h-12 w-auto object-contain">
+        </a>
+        <p class="text-body-md text-on-surface-variant dark:text-surface-variant">
+            Providing industrial grade solutions for a sustainable tomorrow through innovation in biogas technology.
+        </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">Quick Links</h4>
+        <ul class="space-y-4">
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="about.html">About Us</a></li>
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="services.html">Our Services</a></li>
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="#">Solutions</a></li>
+        </ul>
+    </div>
+
+    <!-- LEGAL & ADMIN -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">LEGAL &amp; ADMIN</h4>
+        <ul class="space-y-4">
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="privacy.html">Privacy Policy</a></li>
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">Contact Info</h4>
+        <ul class="space-y-4 text-label-sm font-label-sm">
+            <li class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant">
+                <span class="material-symbols-outlined text-primary">call</span> +91 8887559945
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant">
+                <span class="material-symbols-outlined text-primary">mail</span>
+                <a href="mailto:cbg.technical@gmail.com" class="hover:underline">cbg.technical@gmail.com</a>
+            </li>
+            <li class="flex items-start gap-3 text-on-surface-variant dark:text-surface-variant">
+                <span class="material-symbols-outlined text-primary">location_on</span>
+                <span>25, Baragaon, Near Babatapur International Airport,<br>Varanasi (U.P)</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">Newsletter</h4>
+        <p class="text-label-sm text-on-surface-variant dark:text-surface-variant mb-4">Stay updated with our latest renewable energy projects.</p>
+        <div class="flex gap-2">
+            <input class="bg-white border-outline-variant rounded-lg flex-1 p-2 text-label-sm focus:ring-2 focus:ring-primary outline-none" placeholder="Your Email" type="email">
+            <button class="bg-primary text-on-primary p-2 rounded-lg transition-transform active:scale-95">
+                <span class="material-symbols-outlined">send</span>
+            </button>
+        </div>
+    </div>
+</div>
+</footer>
+<script>
+        // Micro-interaction for bento items
+        document.querySelectorAll('.bento-item').forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                const icon = item.querySelector('.material-symbols-outlined');
+                if (icon) {
+                    icon.style.transition = 'transform 0.3s ease';
+                    icon.style.transform = 'scale(1.2) rotate(5deg)';
+                }
+            });
+            item.addEventListener('mouseleave', () => {
+                const icon = item.querySelector('.material-symbols-outlined');
+                if (icon) {
+                    icon.style.transform = 'scale(1) rotate(0deg)';
+                }
+            });
+        });
+
+        // Simple smooth scroll handling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body></html>
+
+
+
+
+

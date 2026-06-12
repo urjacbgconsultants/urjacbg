@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>About Us | Mukesh Kumar - Urja CBG Consultants</title>
+<!-- Google Fonts: Hanken Grotesk & Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#268451",
+                        "surface-container-high": "#e8e8ea",
+                        "secondary-fixed": "#d7e2ff",
+                        "inverse-surface": "#2f3133",
+                        "on-tertiary-fixed-variant": "#2d5000",
+                        "tertiary-container": "#4c8200",
+                        "primary": "#006a3b",
+                        "surface": "#f9f9fc",
+                        "error-container": "#ffdad6",
+                        "primary-fixed-dim": "#7ed99e",
+                        "secondary-container": "#79a9fd",
+                        "on-secondary": "#ffffff",
+                        "outline": "#6f7a70",
+                        "secondary": "#255dad",
+                        "inverse-on-surface": "#f0f0f3",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "outline-variant": "#becabe",
+                        "on-error-container": "#93000a",
+                        "on-secondary-container": "#003c7e",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#abc7ff",
+                        "surface-bright": "#f9f9fc",
+                        "surface-container-highest": "#e2e2e5",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed": "#acf75a",
+                        "on-primary-fixed-variant": "#00522d",
+                        "on-primary-container": "#f6fff4",
+                        "inverse-primary": "#7ed99e",
+                        "on-tertiary-fixed": "#0f2000",
+                        "surface-variant": "#e2e2e5",
+                        "surface-dim": "#dadadc",
+                        "on-primary-fixed": "#00210f",
+                        "on-secondary-fixed": "#001b3f",
+                        "surface-tint": "#006d3d",
+                        "tertiary-fixed-dim": "#91da40",
+                        "on-secondary-fixed-variant": "#00458f",
+                        "on-tertiary-container": "#f9ffeb",
+                        "surface-container": "#eeeef0",
+                        "primary-fixed": "#9af6b8",
+                        "surface-container-low": "#f3f3f6",
+                        "background": "#f9f9fc",
+                        "on-background": "#1a1c1e",
+                        "on-surface": "#1a1c1e",
+                        "tertiary": "#3b6700",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#3f4941"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-sm": "8px",
+                        "stack-md": "16px",
+                        "container-max": "1280px",
+                        "stack-lg": "32px",
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "48px",
+                        "section-padding": "80px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "body-lg": ["Inter"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["28px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "label-sm": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f9f9fc;
+            color: #1a1c1e;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 106, 59, 0.1);
+        }
+        .industrial-overlay {
+            background: linear-gradient(0deg, rgba(0,106,59,0.8) 0%, rgba(0,106,59,0.4) 50%, rgba(0,106,59,0.2) 100%);
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md">
+<!-- TopNavBar -->
+<nav class="bg-surface/90 backdrop-blur-md dark:bg-inverse-surface/90 docked full-width top-0 sticky z-50 border-b border-outline-variant/30 dark:border-outline/30">
+<div class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+<a href="index.html" class="flex items-center"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYy1DWIp0QZCzpYBcwTT-cKLYCSrSiI4cEeLLdjPiyUGA8yh_yQQZeyMCQSUw44ZNJj7vqhP7aRL-QLy7pVheT83JKyWre4Yt4RoVaYfgihsGRhnD1GqC_7B4IZkg1QnGN4VZj-C3FGBZb41155z_cNXrSLM36bCkWE4JSXPiXQPw3xlqMOrGZ8T5kOvdQuFHKXm6fGx0Ee3FYxE4J3BaPrKLn_Rs84mQCFezHgPuPMV27ns50rUCVI8CmS28fQ8kX0rS_3O7h3Acz" alt="Urja CBG Consultants Logo" class="h-12 w-auto object-contain"></a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-sm font-label-sm" href="index.html">Home</a>
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 text-label-sm font-label-sm" href="about.html">About Us</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-sm font-label-sm" href="services.html">Services</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-sm font-label-sm" href="free-consultation.html">Contact Us</a>
+</div>
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded-lg text-label-sm font-label-sm hover:opacity-90 active:scale-95 transition-all inline-block text-center" href="#">
+                Get Free Consultation
+            </a>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-margin-desktop pb-section-padding space-y-stack-lg">
+<!-- Hero Section: Industrial Background -->
+<header class="relative rounded-xl overflow-hidden h-[500px] mb-12 mt-8">
+<img alt="Industrial CBG Plant" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLvR-0M5FkMB4KN_ND5JA8X-U6oRD6SkM6nSY6VPwuC8Xs-_PblXakbXXp3907_yKbKB5yHel2WiPiXSv_yrUKdt8T6u9JpbddqobuUj-Lrs71iKqwDuRcnq7_xHeaGFNLD4odj1kToWlKM9Pg4HeJCAH3q2DptCBpTvfUxuvBuCyngwBSN8DIx2LSOMdR93yDj7Liec6FPAoTgpCIs1nXyyJ24mOCO6qjfZ4ac5erCk56ROi8rcUsxKlRDi">
+<div class="absolute inset-0 industrial-overlay"></div>
+<div class="absolute bottom-0 left-0 p-12 md:p-16 text-white max-w-3xl">
+
+
+
+</div>
+</header>
+<!-- Bento Grid: The core content -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Company Intro -->
+<section class="md:col-span-8 glass-panel p-8 rounded-xl shadow-sm border-l-4 border-l-primary" style="transform: translateY(0px); transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); box-shadow: none;">
+<h2 class="text-headline-md font-headline-md mb-6 text-primary flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl">factory</span>
+                    Introduction
+                </h2>
+<div class="space-y-6 text-on-surface-variant font-body-md leading-relaxed">
+<p class="">We are pleased to introduce <strong>Urja CBG Consultants</strong>, a specialized technical firm established with a clear objective—to bring practical expertise, skilled execution, and reliable technical support to the CBG industry.</p>
+<p class="">Urja CBG consultants has been formed by a team of experienced professionals who have collectively worked on multiple CBG and biogas projects across India. Our core strength lies in combining <strong>hands-on field experience with strong technical understanding</strong>, enabling us to deliver efficient project execution, smooth commissioning, and stable plant operations.</p>
+</div>
+</section>
+<!-- Quick Contact Card -->
+<aside class="md:col-span-4 bg-surface-container-high p-8 rounded-xl flex flex-col justify-between border border-outline-variant/50">
+<div>
+<h3 class="text-headline-md font-headline-md mb-8 text-on-background">Contact Info</h3>
+<div class="space-y-8">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-outline">Phone</p>
+<p class="font-bold text-lg">8887559945</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-outline">Email</p>
+<p class="font-bold underline text-secondary">cbg.technical@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-8 mt-8 border-t border-outline-variant">
+<p class="text-label-sm font-label-sm text-outline uppercase tracking-wider mb-4">Professional Availability</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 bg-primary text-on-primary rounded text-[11px] font-bold">CONSULTATION</span>
+<span class="px-3 py-1.5 bg-primary text-on-primary rounded text-[11px] font-bold">PROJECT AUDIT</span>
+<span class="px-3 py-1.5 bg-secondary text-on-secondary rounded text-[11px] font-bold">COMMISSIONING</span>
+</div>
+</div>
+</aside>
+<!-- Industrial Track Record -->
+<section class="md:col-span-12 glass-panel p-10 rounded-xl shadow-sm border border-outline-variant/30" style="transform: translateY(0px); transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); box-shadow: none;">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
+<div class="space-y-2">
+
+
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="p-8 bg-surface-container-low rounded-lg border-b-4 border-b-primary hover:bg-white transition-colors group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">construction</span>
+<h4 class="font-bold text-lg mb-3">Site Execution</h4>
+<p class="text-body-md text-on-surface-variant">Coordination and meticulous technical supervision for large-scale industrial infrastructure.</p>
+</div>
+<div class="p-8 bg-surface-container-low rounded-lg border-b-4 border-b-primary hover:bg-white transition-colors group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">oil_barrel</span>
+<h4 class="font-bold text-lg mb-3">Biogas Systems</h4>
+<p class="text-body-md text-on-surface-variant">Installation support for generation and purification systems (PSA &amp; Water Scrubbing).</p>
+</div>
+<div class="p-8 bg-surface-container-low rounded-lg border-b-4 border-b-primary hover:bg-white transition-colors group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">speed</span>
+<h4 class="font-bold text-lg mb-3">Commissioning</h4>
+<p class="text-body-md text-on-surface-variant">Complete pre-commissioning, startup assistance, and handover of complex energy plants.</p>
+</div>
+<div class="p-8 bg-surface-container-low rounded-lg border-b-4 border-b-primary hover:bg-white transition-colors group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 block group-hover:scale-110 transition-transform">monitoring</span>
+<h4 class="font-bold text-lg mb-3">Process Stability</h4>
+<p class="text-body-md text-on-surface-variant">Stabilization and operational readiness for long-term industrial reliability and output.</p>
+</div>
+</div>
+</section>
+<!-- Technology Proposal Section -->
+<section class="md:col-span-7 bg-white p-10 rounded-xl border border-outline-variant/30 relative overflow-hidden flex flex-col justify-center">
+<div class="absolute top-0 right-0 w-48 h-48 bg-primary/5 rounded-bl-full -mr-12 -mt-12"></div>
+<h2 class="text-headline-md font-headline-md mb-8 text-primary flex items-center gap-2">
+<span class="material-symbols-outlined">lightbulb</span>
+    Strategic Solution
+</h2>
+<div class="space-y-8 text-body-md text-on-surface-variant">
+<p class="text-lg">We propose the adoption of a <strong>water scrubbing–based biogas upgradation system</strong> for upcoming projects. Based on practical experience, this ensures:</p>
+<ul class="space-y-4">
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-base">check</span>
+<span class="font-medium">Stable performance metrics across varied operational loads</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-base">check</span>
+<span class="font-medium">Consistent high gas quality output (96%+ Methane)</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-base">check</span>
+<span class="font-medium">Ease of long-term operational maintenance and reduced downtime</span>
+</li>
+</ul>
+<div class="bg-surface-container p-6 rounded-lg border-l-4 border-primary">
+<p class="italic text-label-sm font-label-sm text-on-surface-variant">
+        Our team possesses strong expertise in design support, system setup, commissioning, troubleshooting, and performance optimization of such industrial systems.
+    </p>
+</div>
+</div>
+</section>
+<!-- Vision & Partnership -->
+<section class="md:col-span-5 bg-inverse-surface text-white p-10 rounded-xl flex flex-col justify-center gap-8 relative overflow-hidden">
+<div class="absolute top-0 right-0 opacity-10 translate-x-1/4 -translate-y-1/4 scale-150">
+<span class="material-symbols-outlined text-[200px]">handshake</span>
+</div>
+<div class="space-y-6 relative z-10">
+<h3 class="text-headline-md font-headline-md flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-fixed-dim">visibility</span>
+    Our Vision
+</h3>
+<p class="text-surface-variant text-lg leading-relaxed">To contribute meaningfully to the growth of the biogas sector by utilizing our experience, technical knowledge, and execution capability to drive the national clean energy mission.</p>
+</div>
+<div class="p-8 bg-white/5 rounded-lg border border-white/10 relative z-10">
+<p class="text-white font-semibold text-center italic">"We are keen to associate with your esteemed organization as a third-party technical partner."</p>
+</div>
+<a class="w-full bg-primary-fixed text-on-primary-fixed font-bold py-5 rounded-lg flex items-center justify-center gap-3 hover:bg-primary-fixed-dim transition-all relative z-10 shadow-lg hover:shadow-primary/20" href="#">
+                    COLLABORATE WITH US
+                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container dark:bg-inverse-surface border-t border-outline-variant dark:border-outline full-width">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-gutter px-margin-desktop py-section-padding max-w-container-max mx-auto">
+    <!-- Branding & Summary -->
+    <div class="space-y-stack-md col-span-1 md:col-span-1">
+        <a href="index.html" class="flex items-center">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYy1DWIp0QZCzpYBcwTT-cKLYCSrSiI4cEeLLdjPiyUGA8yh_yQQZeyMCQSUw44ZNJj7vqhP7aRL-QLy7pVheT83JKyWre4Yt4RoVaYfgihsGRhnD1GqC_7B4IZkg1QnGN4VZj-C3FGBZb41155z_cNXrSLM36bCkWE4JSXPiXQPw3xlqMOrGZ8T5kOvdQuFHKXm6fGx0Ee3FYxE4J3BaPrKLn_Rs84mQCFezHgPuPMV27ns50rUCVI8CmS28fQ8kX0rS_3O7h3Acz" alt="Urja CBG Consultants Logo" class="h-12 w-auto object-contain">
+        </a>
+        <p class="text-body-md text-on-surface-variant dark:text-surface-variant">
+            Providing industrial grade solutions for a sustainable tomorrow through innovation in biogas technology.
+        </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">Quick Links</h4>
+        <ul class="space-y-4">
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="about.html">About Us</a></li>
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="services.html">Our Services</a></li>
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="#">Solutions</a></li>
+        </ul>
+    </div>
+
+    <!-- LEGAL & ADMIN -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">LEGAL &amp; ADMIN</h4>
+        <ul class="space-y-4">
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="privacy.html">Privacy Policy</a></li>
+            <li><a class="text-on-surface-variant dark:text-surface-variant hover:text-secondary hover:underline transition-all text-label-sm font-label-sm" href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">Contact Info</h4>
+        <ul class="space-y-4 text-label-sm font-label-sm">
+            <li class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant">
+                <span class="material-symbols-outlined text-primary">call</span> +91 8887559945
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant">
+                <span class="material-symbols-outlined text-primary">mail</span>
+                <a href="mailto:cbg.technical@gmail.com" class="hover:underline">cbg.technical@gmail.com</a>
+            </li>
+            <li class="flex items-start gap-3 text-on-surface-variant dark:text-surface-variant">
+                <span class="material-symbols-outlined text-primary">location_on</span>
+                <span>25, Baragaon, Near Babatapur International Airport,<br>Varanasi (U.P)</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+        <h4 class="font-bold text-on-surface dark:text-white mb-6">Newsletter</h4>
+        <p class="text-label-sm text-on-surface-variant dark:text-surface-variant mb-4">Stay updated with our latest renewable energy projects.</p>
+        <div class="flex gap-2">
+            <input class="bg-white border-outline-variant rounded-lg flex-1 p-2 text-label-sm focus:ring-2 focus:ring-primary outline-none" placeholder="Your Email" type="email">
+            <button class="bg-primary text-on-primary p-2 rounded-lg transition-transform active:scale-95">
+                <span class="material-symbols-outlined">send</span>
+            </button>
+        </div>
+    </div>
+</div>
+</footer>
+<script>
+    // Micro-interactions for hover states
+    document.querySelectorAll('.glass-panel, .group').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            if (card.classList.contains('glass-panel')) {
+                card.style.transform = 'translateY(-6px)';
+                card.style.boxShadow = '0 10px 25px -5px rgba(0, 106, 59, 0.1)';
+            }
+        });
+        card.addEventListener('mouseleave', () => {
+            if (card.classList.contains('glass-panel')) {
+                card.style.transform = 'translateY(0px)';
+                card.style.boxShadow = 'none';
+            }
+        });
+    });
+</script>
+
+
+</body></html>
+
+
+
+
+
+
